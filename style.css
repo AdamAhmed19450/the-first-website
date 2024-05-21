@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel-item{
+    height: 100vh;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1 img{
+    height: 50vh;
+    border-radius: 5px;
+}
+.text1{
+    flex-direction: column;
+    max-width: 500px;
+}
+.cardd2{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+.tittle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    object-fit: cover;
+    width: 17.9rem;
+    height: 250px;
+}
